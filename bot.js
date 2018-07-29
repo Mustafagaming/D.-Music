@@ -1,0 +1,16 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+ const prefix = "%";
+client.on('ready', () => {
+    console.log('I am ready!');
+});
+
+client.on('message', message => {
+    if (message.content === 'zg') {
+        message.reply('pong');
+      }
+});
+
+
+
+client.login('NDcxNjU0OTQzOTgwMjU3Mjgx.Dj6kjA.BoIH56NlFtrkvsay8lyhKBYLrLM'; 
